@@ -14,5 +14,6 @@ typedef struct { // Estrutura para armazenar as palavras e suas frequencias
 } IndiceRemissivo;
 
 int palavraExiste(IndiceRemissivo index[], char *word);
+void addPalavra(IndiceRemissivo index[], char *word, int lineNumber);
 
 #endif
