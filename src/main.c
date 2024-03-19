@@ -26,7 +26,7 @@ int main() {
   arqKeys = fopen(nomeArq, "r");
   if (arqKeys == NULL) { // Caso o arquivo não exista
     printf("Erro ao abrir o arquivo\n");
-    return 1;
+    return 0;
   }
   int keyCount = 0;
   while (fscanf(arqKeys, "%s", palavra) != EOF) { // Lê as palavras-chave do arquivo

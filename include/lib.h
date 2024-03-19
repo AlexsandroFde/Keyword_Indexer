@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
-#define max_palavras 1000
+#define max_palavras 500
 #define max_palavra_tam 50
 
 typedef struct { // Estrutura para armazenar as palavras e suas frequencias
